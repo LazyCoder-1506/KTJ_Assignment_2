@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <title>Snake Game - Box</title>
+        <meta charset = "utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />	   
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel = "icon" type = "image/png" href = "img/fav_icon.jpg">
+        <link rel = "stylesheet" type = "text/css" href = "css/box_style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    </head>
+    <body>
+        <div id = "header">
+            <h1 id = "welcome">Welcome to Box mode of the Snake Game</h1>
+            <h3 id = "intro">Eat the food to score points. But if your snake touches the orange blocks or hits itself, it dies. How long can you survive ?</h3>
+        </div>
+        <div id = "canvas_div">
+            <canvas id = "board" width = "520" height = "520"></canvas>
+        </div>
+        <div id = "start_text">
+            <p>This is the classic box mode in the Snake Game. The snake is free to move within the box. If it touches the borders, then it dies.</p>
+            <p>Get ready, Game starts in</p>
+            <p><span id = "timer">10</span> seconds...</p>
+        </div>
+        <div id = "score_div">
+            <h1 id = "score">Score : <span id = "points">0</span></h1>
+        </div>
+        <div id = "speed_div">
+            <div class = "speed_change" id = "faster">FASTER</div>
+            <div class = "speed_change" id = "slower">SLOWER</div>
+        </div>
+        <div id = "instructions">
+            <h1 id = "instr">Instructions</h1>
+            <ul id = "instr_list">
+                <li class = "instr_points">Use the Arrow Keys from the keyboard to change direction of the snake</li>
+                <li class = "instr_points">Click on the 'Faster' or 'Slower' buttons to change speed of the snake</li>
+                <li class = "instr_points">There are only five speeds available : very slow, slow, normal, fast, very fast</li>
+                <li class = "instr_points">Eat the food to score points</li>
+                <li class = "instr_points">Points are scored depending on the speed of the snake</li>
+                <li class = "instr_points">Points scored are : very slow = 1 , slow = 2 , normal = 3 , fast = 4 , very fast = 5</li>
+                <li class = "instr_points">With each food the snake eats, it grows in size</li>
+                <li class = "instr_points">Avoid hitting the orange blocks or any part of the snake</li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="box_script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+*
+{
+    border : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body
+{
+    background-image : url(../img/bg2.jpg);
+    background-size : 100vw 100vh;
+}
+
+#header
+{
+    position : relative;
+    width : 55vw;
+    height : 15vh;
+    left : 1vw;
+    top : 0.5vh;
+}
+
+#welcome
+{
+    font-family : 'Righteous';
+    font-size : 250%;
+    margin-bottom : 1%;
+}
+
+#intro
+{
+    margin-top : 0;
+    font-family : 'Acme';
+    font-size : 175%;
+}
+
+#canvas_div
+{
+    position : absolute;
+    bottom : 5vh;
+    left : 3vw;
+    margin : 0;
+    padding : 0;
+}
+
+#start_text
+{
+    position : absolute;
+    z-index : 10;
+    left : 6vw;
+    top : 35vh;
+    width : 400px;
+    text-align : center;
+    font-family : 'Josefin Sans';
+    font-size : 200%;
+    font-weight : bold;
+    font-style : italic;
+}
+
+#score_div
+{
+    position : absolute;
+    width : 20vw;
+    height : 5vh;
+    text-align : left;
+    right : 1vw;
+    top : 2vh;
+}
+
+#score
+{
+    font-family : 'Righteous';
+    font-size : 350%;
+}
+
+#speed_div
+{
+    position : absolute;
+    width : 15vw;
+    height : 20vh;
+    top : 20vh;
+    right : 4.5vw;
+}
+
+.speed_change
+{
+    position : absolute;
+    width : 80%;
+    height : 30%;
+    left : 10%;
+    background-image : linear-gradient(to bottom, rgba(255,80,80,1), rgba(189,18,18,1));
+    text-align : center;
+    font-size : 175%;
+    font-family : 'Concert One';
+    color : white;
+    padding : 2%;
+}
+
+.speed_change:hover
+{
+    background-image : linear-gradient(to bottom, rgba(189,18,18,1), rgba(189,18,18,1));
+    box-shadow : 0 5px 10px #616161;
+}
+
+#faster
+{
+    top : 10%;
+}
+
+#slower
+{
+    bottom : 10%;
+}
+
+#instructions
+{
+    position : absolute;
+    width : 28vw;
+    left : 40vw;
+    top : 20vh;
+}
+
+#instr
+{
+    font-family : 'Kaushan Script';
+    font-size : 250%;
+}
+
+#instr_list
+{
+    position : relative;
+    left : 4%;
+}
+
+.instr_points
+{
+    font-family : 'Josefin Sans';
+    font-size : 150%;
+    margin-bottom : 2%;
+    font-weight : bold;
+}
